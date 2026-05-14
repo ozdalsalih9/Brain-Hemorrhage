@@ -1,0 +1,19 @@
+{
+  "layout": "csv",
+  "dataset_root": "C:\\Users\\musta\\PycharmProjects\\DeepL2\\Dataset",
+  "labels_csv": "C:\\Users\\musta\\PycharmProjects\\DeepL2\\Dataset\\labels.csv",
+  "image_root": "C:\\Users\\musta\\PycharmProjects\\DeepL2\\Dataset\\head_ct\\head_ct",
+  "label_column": "hemorrhage",
+  "total_records": 200,
+  "total_images": 200,
+  "class_names": [
+    "no_hemorrhage",
+    "hemorrhage"
+  ],
+  "class_counts": {
+    "hemorrhage": 100,
+    "no_hemorrhage": 100
+  },
+  "missing_files": [],
+  "broken_files": []
+}

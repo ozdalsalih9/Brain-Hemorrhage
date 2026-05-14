@@ -1,0 +1,60 @@
+{
+  "dataset_analysis": "C:\\Users\\musta\\PycharmProjects\\DeepL2\\results\\convnext_tiny_es\\dataset_analysis.json",
+  "split_metadata": "C:\\Users\\musta\\PycharmProjects\\DeepL2\\Dataset\\splits\\metadata.json",
+  "checkpoint": "C:\\Users\\musta\\PycharmProjects\\DeepL2\\models\\best_convnext_tiny_es.pth",
+  "requested_model": "convnext_tiny",
+  "run_name": "convnext_tiny_es",
+  "selected_model": "convnext_tiny",
+  "selected_pretrained": true,
+  "fallback_errors": [],
+  "best_epoch": 5,
+  "best_val_accuracy": 1.0,
+  "epochs_ran": 8,
+  "hyperparameters": {
+    "batch_size": 8,
+    "epochs": 20,
+    "learning_rate": 6e-05,
+    "patience": 3,
+    "weight_decay": 0.0015,
+    "label_smoothing": 0.12,
+    "min_learning_rate": 1e-06,
+    "image_size": 224
+  },
+  "history_csv": "C:\\Users\\musta\\PycharmProjects\\DeepL2\\results\\convnext_tiny_es\\training_history.csv",
+  "history_json": "C:\\Users\\musta\\PycharmProjects\\DeepL2\\results\\convnext_tiny_es\\training_history.json",
+  "training_curves": "C:\\Users\\musta\\PycharmProjects\\DeepL2\\results\\convnext_tiny_es\\training_curves.png",
+  "test_metrics_path": "C:\\Users\\musta\\PycharmProjects\\DeepL2\\results\\convnext_tiny_es\\test_metrics.json",
+  "confusion_matrix_path": "C:\\Users\\musta\\PycharmProjects\\DeepL2\\results\\convnext_tiny_es\\confusion_matrix_test.png",
+  "test_metrics": {
+    "accuracy": 0.95,
+    "precision": 0.9545454545454545,
+    "recall": 0.95,
+    "f1": 0.949874686716792,
+    "confusion_matrix": [
+      [
+        9,
+        1
+      ],
+      [
+        0,
+        10
+      ]
+    ],
+    "per_class": [
+      {
+        "class_name": "no_hemorrhage",
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1": 0.9473684210526315,
+        "support": 10
+      },
+      {
+        "class_name": "hemorrhage",
+        "precision": 0.9090909090909091,
+        "recall": 1.0,
+        "f1": 0.9523809523809523,
+        "support": 10
+      }
+    ]
+  }
+}

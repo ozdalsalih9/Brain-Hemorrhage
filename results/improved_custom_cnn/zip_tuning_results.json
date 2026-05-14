@@ -1,0 +1,90 @@
+[
+  {
+    "experiment": 1,
+    "lr": 0.001,
+    "batch_size": 16,
+    "dropout1": 0.5,
+    "dropout2": 0.3,
+    "weight_decay": 0.0001,
+    "best_val_acc": 0.8,
+    "best_val_loss": 0.51889292995135,
+    "epochs_ran": 10
+  },
+  {
+    "experiment": 2,
+    "lr": 0.0005,
+    "batch_size": 16,
+    "dropout1": 0.5,
+    "dropout2": 0.3,
+    "weight_decay": 0.0001,
+    "best_val_acc": 0.8666666666666667,
+    "best_val_loss": 0.2970979869365692,
+    "epochs_ran": 15
+  },
+  {
+    "experiment": 3,
+    "lr": 0.0001,
+    "batch_size": 16,
+    "dropout1": 0.5,
+    "dropout2": 0.3,
+    "weight_decay": 0.0001,
+    "best_val_acc": 0.7666666666666667,
+    "best_val_loss": 0.4805283049742381,
+    "epochs_ran": 15
+  },
+  {
+    "experiment": 4,
+    "lr": 0.0005,
+    "batch_size": 32,
+    "dropout1": 0.5,
+    "dropout2": 0.3,
+    "weight_decay": 0.0001,
+    "best_val_acc": 0.8,
+    "best_val_loss": 0.3859339654445648,
+    "epochs_ran": 15
+  },
+  {
+    "experiment": 5,
+    "lr": 0.0005,
+    "batch_size": 16,
+    "dropout1": 0.3,
+    "dropout2": 0.2,
+    "weight_decay": 0.0001,
+    "best_val_acc": 0.9,
+    "best_val_loss": 0.323165903488795,
+    "epochs_ran": 15
+  },
+  {
+    "experiment": 6,
+    "lr": 0.0005,
+    "batch_size": 16,
+    "dropout1": 0.5,
+    "dropout2": 0.3,
+    "weight_decay": 0.0,
+    "best_val_acc": 0.8666666666666667,
+    "best_val_loss": 0.36664953430493674,
+    "epochs_ran": 15
+  },
+  {
+    "experiment": 7,
+    "lr": 0.0001,
+    "batch_size": 32,
+    "dropout1": 0.5,
+    "dropout2": 0.3,
+    "weight_decay": 0.0001,
+    "best_val_acc": 0.7333333333333333,
+    "best_val_loss": 0.5173720121383667,
+    "epochs_ran": 15
+  },
+  {
+    "experiment": 8,
+    "lr": 0.0005,
+    "batch_size": 32,
+    "dropout1": 0.3,
+    "dropout2": 0.2,
+    "weight_decay": 0.0,
+    "best_val_acc": 0.8666666666666667,
+    "best_val_loss": 0.2967110872268677,
+    "epochs_ran": 15
+  }
+]

@@ -1,0 +1,8 @@
+Layout: csv
+Dataset root: C:\Users\musta\PycharmProjects\DeepL2\Dataset
+Total images: 200
+Class counts:
+  - hemorrhage: 100
+  - no_hemorrhage: 100
+Missing files: 0
+Broken files: 0

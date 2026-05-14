@@ -1,0 +1,39 @@
+# Python cache / build output
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Local environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# IDE / OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Dataset and ad-hoc local inputs
+Dataset/
+data/
+datasets/
+*.zip
+
+# Large checkpoints that exceed GitHub's 100 MB file limit.
+# The two checkpoints needed by src/gui_app.py stay tracked.
+models/*.pth
+!models/best_convnext_base_es_uint8.pth
+!models/custom_cnn.pth
+
+# Runtime exports
+outputs/
+screenshots/
