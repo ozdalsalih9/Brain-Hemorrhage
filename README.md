@@ -1,6 +1,6 @@
 # Brain Hemorrhage Detection
 
-Brain Hemorrhage Detection is a Python deep learning project for classifying brain CT images as `hemorrhage` or `no_hemorrhage`. The repository includes training, evaluation, checkpoint export, command-line prediction, and a Tkinter GUI for comparing a pretrained ConvNeXt-based model with a custom CNN.
+Brain Hemorrhage Detection is an AI project for classifying brain CT images as `hemorrhage` or `no_hemorrhage` using ConvNeXt/CNN models. The repository includes training, evaluation, checkpoint export, command-line prediction, and a Tkinter GUI for comparing a pretrained ConvNeXt-based model with a custom CNN.
 
 > This project is for educational and research use only. It is not a medical device and must not be used as the sole basis for diagnosis or treatment.
 
