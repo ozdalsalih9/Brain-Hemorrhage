@@ -119,19 +119,9 @@ Current saved metrics:
 | ConvNeXt Base ES / uint8 checkpoint | 0.95 | 0.9545 | 0.95 | 0.9499 |
 | Custom CNN | 0.90 | 0.9167 | 0.90 | 0.8990 |
 
-See `results/` for training curves, confusion matrices, and JSON metric files.
+## Screenshots
+<img width="1871" height="987" alt="Ekran görüntüsü 2026-05-14 174325" src="https://github.com/user-attachments/assets/6138f366-0b2f-4631-958b-c6aba1640992" />
 
-## Push to GitHub
+<img width="1872" height="982" alt="Ekran görüntüsü 2026-05-14 174601" src="https://github.com/user-attachments/assets/4cb65b58-91d1-4c8b-a31d-c1aac7a5abd5" />
+<img width="1866" height="975" alt="Ekran görüntüsü 2026-05-14 174406" src="https://github.com/user-attachments/assets/90a47298-a723-4e49-9fd0-a925f5080c27" />
 
-After reviewing the files:
-
-```powershell
-git init
-git add .
-git commit -m "Initial brain hemorrhage detection project"
-git branch -M main
-git remote add origin https://github.com/<your-username>/Brain-Hemorrhage.git
-git push -u origin main
-```
-
-Replace `<your-username>` with your GitHub username.
